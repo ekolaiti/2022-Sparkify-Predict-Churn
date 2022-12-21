@@ -1,7 +1,8 @@
 # 2022-Sparkify-Predict-Churn
 
 ## Sparkify Predicting Customer Churn
-Description: 
+
+## Description: 
 Sparkify is a made-up music app used by Udacity to simulate a music streaming platform. The users of Sparkify can use either the 'free' or the 'paid' version to listen to songs. Every time a user interacts with a platform they generate data that are recorded to a log file. This includes actions such as playing a song, rating a song using a 'thumbs up' or 'thumbs down', navigating through the platform or logging out.
 
 The aim of the project is to predict whether a customer is at risk of 'churning', which is when a user is about to cancel their subscription and stop using the platform. By identifying the users that are about to churn, the platform can offer incentives, such as discounts, to increase retention. 
