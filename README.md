@@ -29,6 +29,8 @@ Clone the repository and run the jupyter notebook
 
 ## Results:
 I used the ... algorithm and it returned the following best parameters: {'moc__estimator__learning_rate': 1, 'moc__estimator__n_estimators': 100}
+The findings of this data analysis are presented in this blog post:
+https://medium.com/@irene.kolaiti/its-where-you-live-not-what-you-know-5ed4b8c62ec3
 
 ## Considerations:
 This mini dataset that was used to train the model is imbalanced, the churn label has too few examples of the minority class (churn = 1). 
