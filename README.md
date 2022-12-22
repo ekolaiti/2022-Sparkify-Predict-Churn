@@ -28,9 +28,10 @@ data |- mini_sparkify_event_data.json.zip, a compressed version of the mini data
 Clone the repository, decompress the dataset and save it in the same folder as the notebook, run the notebook.
 
 ## Results:
-I used the ... algorithm and it returned the following best parameters: {'moc__estimator__learning_rate': 1, 'moc__estimator__n_estimators': 100}
-The findings of this data analysis are presented in this blog post:
-https://medium.com/@irene.kolaiti/its-where-you-live-not-what-you-know-5ed4b8c62ec3
+Predicting churn has involved data exploration in order to observe user behaviour with Sparkify, extracting promising features, and machine learning modelling. After considering three machine learning algorithms, Random Forest Classifier was selected as the winning model. The final evaluation metrics are F1 score: 0.727358 and accuracy: 0.764706 and the best parameters were maxDepth: 10 and numTrees: 10. In terms of feature importance, the ‘days since registration’ feature, and the ‘thumbs down’, ‘add friends’ and ‘roll adverts’ actions are the most important when predicting churn.
+
+The process and findings of this project are presented in this blog post:
+https://medium.com/@irene.kolaiti/sparkify-should-i-stay-or-should-i-churn-80bcd83020c9
 
 ## Considerations:
 This mini dataset that was used to train the model is imbalanced, the churn label has too few examples of the minority class (churn = 1). 
