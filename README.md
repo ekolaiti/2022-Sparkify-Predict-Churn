@@ -9,16 +9,29 @@ The aim of the project is to predict whether a customer is at risk of 'churning'
 
 For this project a subset of the full dataset is manipulated using Apache Spark in order to engineer features for predicting customer churn. The Spark MLlib library is used to build a machine learning model that can work with large datasets, making this project a prototype for applying machine learning techniques to Big Data. In the mini dataset the users that churned are a fairly small subset, therefore the F1 score is chosen as the metric to optimise the model.
 
+## Libraries:
+pyspark sql
+pyspark mllib
+numpy
+pandas
+matplotlib
+searborn
+datetime
+
 ## Files:
 This repository includes besides this README.md the following files:
-app - 
+notebook |- Sparkify.ipynb, a jupyter notebook that contains the data analysis and modeling steps
 
-data -
+data |- mini_sparkify_event_data.json, a mini dataset which is a subset of the full 12GB dataset
 
 ## Instructions:
+Clone the repository and run the jupyter notebook
+
+## Results:
+I used the ... algorithm and it returned the following best parameters: {'moc__estimator__learning_rate': 1, 'moc__estimator__n_estimators': 100}
 
 ## Considerations:
-This dataset is imbalanced, the churn label has too few examples of the minority class (label = 1). I used the algorithm and it returned the following best parameters: {'moc__estimator__learning_rate': 1, 'moc__estimator__n_estimators': 100}
+This mini dataset that was used to train the model is imbalanced, the churn label has too few examples of the minority class (churn = 1). 
 
 ## Acknowledgments:
 Thank you to Udacity for designing this project.
