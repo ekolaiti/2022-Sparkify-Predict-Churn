@@ -19,10 +19,10 @@ searborn
 datetime
 
 ## Files:
-This repository includes besides this README.md the following files:
-notebook |- Sparkify.ipynb, a jupyter notebook that contains the data analysis and modeling steps
-
-data |- mini_sparkify_event_data.json, a mini dataset which is a subset of the full 12GB dataset
+This repository includes besides this README.md the following files:  
+notebook |- Sparkify.ipynb, a jupyter notebook that contains the data analysis and modeling steps. 
+  
+data |- mini_sparkify_event_data.json, a mini dataset which is a subset of the full 12GB dataset. 
 
 ## Instructions:
 Clone the repository and run the jupyter notebook
