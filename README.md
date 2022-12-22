@@ -30,7 +30,7 @@ Clone the repository, decompress the dataset and save it in the same folder as t
 ## Results:
 Predicting churn has involved data exploration in order to observe user behaviour with Sparkify, extracting promising features, and machine learning modelling. After considering three machine learning algorithms, Random Forest Classifier was selected as the winning model. The final evaluation metrics are F1 score: 0.727358 and accuracy: 0.764706 and the best parameters were maxDepth: 10 and numTrees: 10. In terms of feature importance, the ‘days since registration’ feature, and the ‘thumbs down’, ‘add friends’ and ‘roll adverts’ actions are the most important when predicting churn.
 
-The process and findings of this project are presented in this blog post:
+The solution and findings of this project are presented in this blog post:
 https://medium.com/@irene.kolaiti/sparkify-should-i-stay-or-should-i-churn-80bcd83020c9
 
 ## Considerations:
