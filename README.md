@@ -22,10 +22,10 @@ datetime
 This repository includes besides this README.md the following files:  
 notebook |- Sparkify.ipynb, a jupyter notebook that contains the data analysis and modeling steps. 
   
-data |- mini_sparkify_event_data.json, a mini dataset which is a subset of the full 12GB dataset. 
+data |- mini_sparkify_event_data.json.zip, a compressed version of the mini dataset, which is a subset of the full 12GB dataset. 
 
 ## Instructions:
-Clone the repository and run the jupyter notebook
+Clone the repository, decompress the dataset and save it in the same folder as the notebook, run the notebook.
 
 ## Results:
 I used the ... algorithm and it returned the following best parameters: {'moc__estimator__learning_rate': 1, 'moc__estimator__n_estimators': 100}
